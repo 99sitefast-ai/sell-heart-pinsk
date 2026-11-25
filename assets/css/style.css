@@ -58,8 +58,8 @@ h1,h2,h3,h4,p,figure{margin:0}
 
 /* ---------- первый экран ---------- */
 .hero{position:relative;background:var(--cream);overflow:hidden}
-.hero-in{display:grid;grid-template-columns:1.04fr .96fr;min-height:min(78vh,660px)}
-.hero-txt{display:flex;flex-direction:column;justify-content:center;padding:clamp(30px,4.6vw,62px) clamp(18px,4vw,54px) clamp(30px,4.6vw,56px) 0}
+.hero-in{display:grid;grid-template-columns:1.04fr .96fr;min-height:min(70vh,600px)}
+.hero-txt{display:flex;flex-direction:column;justify-content:center;padding:clamp(24px,3.6vw,50px) clamp(18px,4vw,54px) clamp(24px,3.6vw,44px) 0}
 .hero-media{position:relative;overflow:hidden;background:var(--paper)}
 .hero-media img{width:100%;height:100%;object-fit:cover;object-position:center 40%}
 .hero-media::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(252,247,242,.5),rgba(252,247,242,0) 30%)}
@@ -68,9 +68,9 @@ h1,h2,h3,h4,p,figure{margin:0}
 .hero h1{font:800 clamp(1.75rem,4.1vw,3.05rem)/1.04 var(--disp);letter-spacing:-.03em;text-transform:uppercase;margin-top:16px}
 .hl{background:var(--pink);color:#fff;padding:.04em .18em;display:inline-block;transform:rotate(-1.2deg)}
 .hl-soft{background:var(--pink-l);padding:.02em .16em;display:inline-block}
-.hero-sub{margin-top:20px;max-width:44ch;color:rgba(20,16,15,.78);font-size:17px}
-.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
-.hero-facts{display:flex;flex-wrap:wrap;gap:10px 24px;margin-top:30px;padding-top:20px;border-top:1px solid var(--line);font-size:13.5px;font-weight:500;color:rgba(20,16,15,.7)}
+.hero-sub{margin-top:16px;max-width:44ch;color:rgba(20,16,15,.78);font-size:17px}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.hero-facts{display:flex;flex-wrap:wrap;gap:10px 24px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:13.5px;font-weight:500;color:rgba(20,16,15,.7)}
 .hero-facts span{display:inline-flex;align-items:center;gap:8px}
 .hero-facts span::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--pink)}
 .hero-badge{position:absolute;right:clamp(14px,3vw,30px);bottom:clamp(14px,3vw,30px);z-index:3;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:14px 18px;display:flex;align-items:center;gap:12px;box-shadow:6px 6px 0 var(--pink)}
